@@ -138,6 +138,7 @@ type ManyChannelInformation struct {
 
 type ChannelInformation struct {
 	BroadcasterID       string   `json:"broadcaster_id"`
+	BroadcasterLogin    string   `json:"broadcaster_login"`
 	BroadcasterName     string   `json:"broadcaster_name"`
 	BroadcasterLanguage string   `json:"broadcaster_language"`
 	GameID              string   `json:"game_id"`
