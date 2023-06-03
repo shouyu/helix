@@ -4,6 +4,7 @@ type Game struct {
 	ID        string `json:"id"`
 	Name      string `json:"name"`
 	BoxArtURL string `json:"box_art_url"`
+	IgdbID    string `json:"igdb_id"`
 }
 
 type ManyGames struct {
